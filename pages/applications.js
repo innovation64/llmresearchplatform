@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FiFeather, FiFilm, FiBookOpen, FiGitBranch, FiBarChart2, FiCpu } from 'react-icons/fi';
+import { FiFeather, FiFilm, FiBookOpen, FiGitBranch, FiBarChart2, FiCpu, FiActivity } from 'react-icons/fi';
 
 export default function Applications() {
   return (
@@ -12,7 +12,7 @@ export default function Applications() {
               Potential Applications
             </h1>
             <p className="text-xl md:text-2xl mb-4 opacity-90">
-              Real-world impact of our LLM research
+              Real-world impact of LLM research and brain-inspired AI
             </p>
           </div>
         </div>
@@ -22,10 +22,27 @@ export default function Applications() {
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-700 mb-12">
-              Our research in large language models has implications for various real-world applications where intelligent agents and knowledge retrieval can create significant value. These applications span across multiple domains including research, healthcare, education, software development, business intelligence, and personal assistance.
+              Our research in large language models has implications for various real-world applications where intelligent agents, brain-inspired memory, and knowledge retrieval can create significant value. These applications span across multiple domains including pain analysis, healthcare, research, education, software development, business intelligence, and personal assistance.
             </p>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+              {/* Pain Analysis - NEW */}
+              <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-lg p-6 border border-emerald-200">
+                <div className="text-emerald-600 mb-4">
+                  <FiActivity size={32} />
+                </div>
+                <h2 className="text-xl font-semibold mb-3">Pain Analysis &amp; Assessment</h2>
+                <p className="text-gray-600 mb-4">
+                  Domain-specific LLMs (Pain LLM) trained on 20+ H100 GPUs for automated pain analysis and assessment. Includes pain mouse behavioral benchmarks developed under the China Brain Project at GIIST.
+                </p>
+                <h3 className="font-medium mb-2">Key Benefits:</h3>
+                <ul className="list-disc pl-5 space-y-1 text-gray-600">
+                  <li>Automated pain behavior assessment</li>
+                  <li>Standardized pain evaluation benchmarks</li>
+                  <li>Multi-modal pain signal analysis</li>
+                </ul>
+              </div>
+
               <div className="bg-gray-50 rounded-lg p-6">
                 <div className="text-primary mb-4">
                   <FiFeather size={32} />

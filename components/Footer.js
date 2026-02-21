@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FiGithub, FiLinkedin, FiMail, FiExternalLink } from 'react-icons/fi';
+import { FiGithub, FiMail, FiExternalLink, FiBookOpen } from 'react-icons/fi';
 
 const Footer = () => {
   return (
@@ -9,34 +9,37 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Li Yang Research</h3>
             <p className="text-gray-300 mb-4">
-              Exploring multi-agent systems, retrieval-augmented generation (RAG), and reasoning capabilities in large language models.
+              Exploring brain-inspired memory, multi-agent systems, retrieval-augmented generation (RAG), and reasoning capabilities in large language models.
             </p>
             <div className="flex space-x-4">
-              <a 
-                href="https://github.com/innovation64" 
-                target="_blank" 
+              <a
+                href="https://github.com/innovation64"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
+                title="GitHub"
               >
                 <FiGithub size={20} />
               </a>
-              <a 
-                href="https://linkedin.com/" 
-                target="_blank" 
+              <a
+                href="https://scholar.google.com/citations?user=J5CWbnMAAAAJ"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
+                title="Google Scholar"
               >
-                <FiLinkedin size={20} />
+                <FiBookOpen size={20} />
               </a>
-              <a 
-                href="mailto:innovation64feng@gmail.com" 
+              <a
+                href="mailto:innovation64feng@gmail.com"
                 className="text-gray-300 hover:text-white"
+                title="Email"
               >
                 <FiMail size={20} />
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
@@ -72,7 +75,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <p className="text-gray-300 mb-2">
@@ -82,20 +85,31 @@ const Footer = () => {
               Phone: +86 13269183099 / +852 54614337
             </p>
             <p className="text-gray-300 mb-4">
-              Hong Kong Metropolitan University
+              Guangdong Institute of Intelligence Science and Technology (GIIST)
             </p>
-            <a 
-              href="https://innovation64.github.io/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center text-gray-300 hover:text-white"
-            >
-              <span className="mr-2">Personal Website</span>
-              <FiExternalLink size={16} />
-            </a>
+            <div className="space-y-2">
+              <a
+                href="https://innovation64.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-gray-300 hover:text-white"
+              >
+                <span className="mr-2">Personal Website</span>
+                <FiExternalLink size={16} />
+              </a>
+              <a
+                href="https://scholar.google.com/citations?user=J5CWbnMAAAAJ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-gray-300 hover:text-white"
+              >
+                <span className="mr-2">Google Scholar</span>
+                <FiExternalLink size={16} />
+              </a>
+            </div>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
           <p>&copy; {new Date().getFullYear()} Li Yang Research Platform. All Rights Reserved.</p>
         </div>

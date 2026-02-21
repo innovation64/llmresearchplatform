@@ -39,14 +39,14 @@ export default function Discuss() {
       id: 2,
       author: 'Dr. Michael Zhang',
       date: 'April 5, 2025',
-      content: 'I\'m working on similar multi-agent evaluation frameworks at MIT. Would be great to compare notes on how you\'re measuring inter-agent communication efficiency. Your XAgent evaluation metrics look promising.',
+      content: "I'm working on similar multi-agent evaluation frameworks at MIT. Would be great to compare notes on how you're measuring inter-agent communication efficiency. Your XAgent evaluation metrics look promising.",
       affiliation: 'MIT CSAIL'
     },
     {
       id: 3,
       author: 'Olivia Rodriguez',
       date: 'March 28, 2025',
-      content: 'We\'re implementing RAG systems for legal document analysis and would be interested in collaborating on how your work on context integration could help with maintaining document relationships. Let\'s connect!',
+      content: "We're implementing RAG systems for legal document analysis and would be interested in collaborating on how your work on context integration could help with maintaining document relationships. Let's connect!",
       affiliation: 'LegalTech Institute'
     }
   ];

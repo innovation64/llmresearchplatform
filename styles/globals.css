@@ -35,11 +35,11 @@ h4 {
 }
 
 .btn {
-  @apply px-4 py-2 rounded transition-colors;
+  @apply px-4 py-2 rounded-lg transition-all duration-200;
 }
 
 .btn-primary {
-  @apply bg-primary text-white hover:bg-primary/90;
+  @apply bg-primary text-white hover:bg-primary/90 hover:shadow-md;
 }
 
 .btn-outline {
@@ -51,7 +51,7 @@ h4 {
 }
 
 .card {
-  @apply bg-white rounded-lg shadow-md overflow-hidden transition-shadow hover:shadow-lg;
+  @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
 }
 
 .tag {
@@ -69,10 +69,24 @@ h4 {
 
 /* For discussion section */
 .message-card {
-  @apply bg-white p-4 rounded-lg shadow-sm border border-gray-100 mb-4;
+  @apply bg-white p-4 rounded-lg shadow-sm border border-gray-100 mb-4 transition-shadow hover:shadow-md;
 }
 
 /* For PhD banner */
 .phd-banner {
   @apply bg-blue-50 border-l-4 border-primary p-4 rounded-md;
+}
+
+/* Pulse animation for status indicator */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }

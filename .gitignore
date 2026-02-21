@@ -1,5 +1,6 @@
 # Next.js build output
 .next
+out
 
 # Node dependencies
 node_modules

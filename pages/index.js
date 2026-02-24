@@ -259,6 +259,48 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Star Trail Banner */}
+      <section className="relative overflow-hidden bg-black">
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a2e] via-[#080820] to-[#0a0a2e]"></div>
+        <div className="absolute inset-0">
+          <div className="absolute top-0 left-[30%] w-px h-full bg-gradient-to-b from-transparent via-green-500/20 to-transparent"></div>
+          <div className="absolute top-0 left-[50%] w-px h-full bg-gradient-to-b from-transparent via-amber-500/15 to-transparent"></div>
+          <div className="absolute top-0 left-[70%] w-px h-full bg-gradient-to-b from-transparent via-purple-500/10 to-transparent"></div>
+        </div>
+        <div className="container relative z-10 py-16 md:py-20">
+          <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10">
+            <div className="flex-1 text-white">
+              <div className="inline-block px-3 py-1 bg-green-500/10 backdrop-blur-sm rounded-full text-xs font-medium mb-4 border border-green-500/20 text-green-300">
+                Inspired by Steins;Gate &middot; Worldline Theory
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold mb-3">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-200">&#x661F;&#x8F68;</span>
+                <span className="text-white ml-2">Star Trail</span>
+              </h2>
+              <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+                Research worldlines diverging across memory, reasoning, and agents &mdash; converging toward <strong className="text-green-300">Artificial Super Intelligence</strong>.
+              </p>
+              <div className="flex flex-wrap gap-3 mb-6">
+                <span className="px-3 py-1 bg-white/5 rounded-full text-sm text-gray-400 border border-white/10 font-mono">&alpha; Brain Memory</span>
+                <span className="px-3 py-1 bg-white/5 rounded-full text-sm text-gray-400 border border-white/10 font-mono">&beta; Domain AI</span>
+                <span className="px-3 py-1 bg-green-500/10 rounded-full text-sm text-green-300 border border-green-500/20 font-mono">SG &rarr; ASI</span>
+              </div>
+              <Link href="/startrail" className="btn bg-green-500 text-black hover:bg-green-400 font-semibold px-6 py-3">
+                Explore Worldlines &rarr;
+              </Link>
+            </div>
+            <div className="hidden md:block w-48 flex-shrink-0">
+              <div className="bg-black/40 backdrop-blur-sm border border-green-500/20 rounded-lg px-4 py-3 shadow-[0_0_20px_rgba(34,197,94,0.1)]">
+                <div className="font-mono text-green-400 text-2xl tracking-[0.2em] font-bold text-center" style={{textShadow: '0 0 10px rgba(34,197,94,0.5)'}}>
+                  1.048596
+                </div>
+                <div className="text-green-500/50 text-xs tracking-widest mt-1 text-center">DIVERGENCE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Publications Section */}
       <section className="section bg-white">
         <div className="container">

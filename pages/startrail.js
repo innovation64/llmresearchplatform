@@ -6,8 +6,13 @@ export default function StarTrail() {
     <div>
       {/* Hero Section - Steins;Gate Inspired */}
       <section className="relative min-h-[560px] flex items-center overflow-hidden bg-black">
+        <img
+          src="/llmresearchplatform/images/sg-key.jpg"
+          alt="Steins;Gate - Star Trail"
+          className="absolute inset-0 w-full h-full object-cover object-top opacity-30"
+        />
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-[#0a0a2e] to-[#0d0d3a]"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-[#0a0a2e]/80 to-[#0d0d3a]/90"></div>
           {/* Stars */}
           <div className="absolute top-[10%] left-[15%] w-1 h-1 bg-white rounded-full animate-pulse"></div>
           <div className="absolute top-[20%] left-[45%] w-0.5 h-0.5 bg-blue-200 rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
@@ -468,9 +473,51 @@ export default function StarTrail() {
         </div>
       </section>
 
+      {/* Inspiration Gallery */}
+      <section className="section bg-[#080820]">
+        <div className="container">
+          <div className="text-center mb-10">
+            <h2 className="mb-4 text-white">Inspiration Gallery</h2>
+            <p className="text-gray-400">
+              The worldline that inspired a research direction
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-5xl mx-auto">
+            <div className="relative rounded-lg overflow-hidden aspect-[3/4]">
+              <img src="/llmresearchplatform/images/sg-divergence.jpg" alt="Steins;Gate" className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              <div className="absolute bottom-2 left-2 text-green-300 text-xs font-mono">Worldline Divergence</div>
+            </div>
+            <div className="relative rounded-lg overflow-hidden aspect-[3/4]">
+              <img src="/llmresearchplatform/images/sg-key.jpg" alt="Steins;Gate Key Visual" className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              <div className="absolute bottom-2 left-2 text-amber-300 text-xs font-mono">Choice and Consequence</div>
+            </div>
+            <div className="relative rounded-lg overflow-hidden aspect-[3/4]">
+              <img src="/llmresearchplatform/images/sg-zero.jpg" alt="Steins;Gate 0" className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              <div className="absolute bottom-2 left-2 text-blue-300 text-xs font-mono">Beta Attractor Field</div>
+            </div>
+            <div className="relative rounded-lg overflow-hidden aspect-[3/4]">
+              <img src="/llmresearchplatform/images/sg-new.jpg" alt="Steins;Gate - Convergence" className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              <div className="absolute bottom-2 left-2 text-green-300 text-xs font-mono">Steins Gate Worldline</div>
+            </div>
+          </div>
+          <p className="text-center text-gray-600 text-xs mt-4">
+            Images from Steins;Gate &copy; 5pb./Nitroplus/MAGES.
+          </p>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="relative overflow-hidden bg-black">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a2e] to-black"></div>
+        <img
+          src="/llmresearchplatform/images/sg-drama.jpg"
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover opacity-15"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a2e]/90 to-black"></div>
         <div className="absolute inset-0">
           <div className="absolute top-0 left-[20%] w-px h-full bg-gradient-to-b from-green-500/30 via-transparent to-transparent"></div>
           <div className="absolute top-0 left-[40%] w-px h-full bg-gradient-to-b from-purple-500/20 via-transparent to-transparent"></div>

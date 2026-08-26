@@ -22,7 +22,7 @@ export default function Collaborate() {
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-700 mb-12">
-              I&apos;m actively seeking collaborations to advance research in large language models and explore new applications. Whether you&apos;re from academia, industry, or an open-source project, I welcome the opportunity to discuss potential joint efforts in brain-inspired memory architectures, multi-agent systems, recursive self-improvement, RAG frameworks, reasoning capabilities, and domain-specific LLMs. Currently a PhD student at The Hong Kong Polytechnic University (PolyU).
+              I&apos;m actively seeking collaborations to advance research in large language models and explore new applications. Whether you&apos;re from academia, industry, or an open-source project, I welcome the opportunity to discuss potential joint efforts in brain-inspired memory architectures, multi-agent systems, recursive self-improvement, RAG frameworks, reasoning capabilities, and domain-specific LLMs. Currently a PhD student at The Hong Kong Polytechnic University (PolyU), in a joint programme with a research institute, and open to remote collaboration and internships worldwide.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">

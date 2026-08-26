@@ -49,7 +49,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-center">
             <span className="inline-block w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
-            <span className="text-blue-800 font-medium">PhD student @ PolyU &mdash; actively seeking research internships (LLM memory, agents, self-evolution)</span>
+            <span className="text-blue-800 font-medium">PhD student @ PolyU &mdash; seeking research internships, on-site or remote worldwide (US remote welcome)</span>
             <Link href="/phd" className="ml-4 text-blue-600 font-medium hover:underline">
               Learn more &rarr;
             </Link>

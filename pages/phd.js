@@ -20,7 +20,7 @@ export default function PhDJourney() {
               Looking for Research Internships in LLM Memory &amp; Agents
             </h1>
             <p className="text-xl md:text-2xl mb-4 opacity-90">
-              PhD student at The Hong Kong Polytechnic University working on brain-inspired memory, multi-agent systems, and recursive self-improvement &mdash; looking for an industry or lab internship where that work meets real systems
+              PhD student at The Hong Kong Polytechnic University, jointly trained with a research institute, working on brain-inspired memory, multi-agent systems, and recursive self-improvement &mdash; looking for an industry or lab internship where that work meets real systems. Remote roles worldwide, including US-based teams, are very welcome.
             </p>
             <div className="flex flex-wrap justify-center gap-3 mt-8">
               <a href="mailto:innovation64feng@gmail.com" className="btn bg-white text-blue-700 hover:bg-blue-50 font-semibold px-6 py-3">
@@ -41,7 +41,7 @@ export default function PhDJourney() {
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 mb-10 border border-blue-100">
               <h2 className="text-2xl font-semibold mb-4">Overview</h2>
               <p className="text-lg mb-6">
-                I am a PhD student at The Hong Kong Polytechnic University (PolyU), working on large language models &mdash; brain-inspired memory architectures, multi-agent systems, and, increasingly, recursive self-improvement: how an agent can convert its own experience into lasting capability. <strong>I am currently looking for a research internship.</strong> With publications at EMNLP and KDD, and prior research at GIIST, HKMU, Tsinghua NLP Lab, and Zhipu AI, I work across the full LLM stack &mdash; from multi-node distributed training to agent-level system design &mdash; and I am comfortable owning a research problem end to end, from literature to running code to a paper.
+                I am a PhD student at The Hong Kong Polytechnic University (PolyU), enrolled in a joint doctoral programme co-supervised with a research institute, working on large language models &mdash; brain-inspired memory architectures, multi-agent systems, and, increasingly, recursive self-improvement: how an agent can convert its own experience into lasting capability. <strong>I am currently looking for a research internship.</strong> With publications at EMNLP and KDD, and prior research at GIIST, HKMU, Tsinghua NLP Lab, and Zhipu AI, I work across the full LLM stack &mdash; from multi-node distributed training to agent-level system design &mdash; and I am comfortable owning a research problem end to end, from literature to running code to a paper.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex">
@@ -59,7 +59,7 @@ export default function PhDJourney() {
                   </div>
                   <div>
                     <h3 className="font-medium text-lg mb-1">Current Position</h3>
-                    <p className="text-gray-700">PhD Student, The Hong Kong Polytechnic University (PolyU), Hong Kong SAR &mdash; 2026&ndash;Present</p>
+                    <p className="text-gray-700">PhD Student, The Hong Kong Polytechnic University (PolyU), Hong Kong SAR &mdash; 2026&ndash;Present. Joint doctoral training with a research institute (co-supervised).</p>
                   </div>
                 </div>
                 <div className="flex">
@@ -109,7 +109,7 @@ export default function PhDJourney() {
                   <FiBriefcase size={20} />
                   <h3 className="font-medium text-lg text-gray-900">Type of Internship</h3>
                 </div>
-                <p className="text-gray-700">Research internship at an industry lab, research institute, or a startup research team &mdash; ideally one where the work can lead to a paper, an open-source release, or a shipped system. Research-engineer roles that sit between the two are equally welcome.</p>
+                <p className="text-gray-700">Research intern / student researcher at a large tech company&apos;s AI lab, an AI research institute, or a startup research team &mdash; ideally where the work can lead to a paper, an open-source release, or a shipped system. Research-engineer roles that sit between the two are equally welcome, and <strong>fully remote positions work well for me</strong>.</p>
               </div>
               <div className="p-5 border rounded-lg border-l-4 border-l-rose-600 bg-white">
                 <div className="flex items-center gap-2 mb-2 text-rose-600">
@@ -130,7 +130,14 @@ export default function PhDJourney() {
                   <FiClock size={20} />
                   <h3 className="font-medium text-lg text-gray-900">Timing &amp; Location</h3>
                 </div>
-                <p className="text-gray-700 flex items-start gap-2"><FiGlobe size={18} className="mt-1 flex-shrink-0 text-gray-400" /><span>Based in Hong Kong; open to Hong Kong, Mainland China, Singapore, and remote arrangements. Duration and start date are flexible &mdash; happy to discuss what fits both the team and my doctoral schedule.</span></p>
+                <p className="text-gray-700 flex items-start gap-2 mb-3"><FiGlobe size={18} className="mt-1 flex-shrink-0 text-gray-400" /><span>Based in Hong Kong. On-site: Hong Kong, Mainland China, Singapore. <strong>Remote: worldwide, including US and European teams</strong> &mdash; I already work across time zones and can overlap with US hours. Duration and start date are flexible; happy to fit both the team&apos;s cycle and my doctoral schedule.</span></p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="tag bg-blue-100 text-blue-800">US Remote OK</span>
+                  <span className="tag">Hong Kong</span>
+                  <span className="tag">Mainland China</span>
+                  <span className="tag">Singapore</span>
+                  <span className="tag">Flexible Start</span>
+                </div>
               </div>
             </div>
 
@@ -143,7 +150,7 @@ export default function PhDJourney() {
                   <span className="text-sm font-semibold text-blue-600">2026 &ndash; Present</span>
                   <span className="tag bg-green-100 text-green-800 text-xs">Current</span>
                 </div>
-                <h3 className="font-medium text-lg">PhD Student &mdash; The Hong Kong Polytechnic University</h3>
+                <h3 className="font-medium text-lg">PhD Student &mdash; The Hong Kong Polytechnic University (joint programme with a research institute)</h3>
                 <p className="text-gray-600 text-sm mt-1">Doctoral research on long-horizon memory for LLM agents, multi-agent coordination, and recursive self-improvement &mdash; agents that reflect on their own trajectories and revise their own strategies under verification</p>
               </div>
               <div className="relative pl-8 pb-8">
@@ -288,12 +295,13 @@ export default function PhDJourney() {
             <h2 className="text-2xl font-semibold mb-6">Contact for Internships &amp; Collaboration</h2>
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border border-blue-100">
               <p className="mb-4">
-                If your team is hiring research interns &mdash; or if you simply work on LLM memory, multi-agent systems, self-improving agents, or domain-specific models &mdash; I&apos;d be glad to hear from you. A CV and a longer research statement are available on request.
+                If your team is hiring research interns &mdash; on-site or fully remote, anywhere from Hong Kong to the US &mdash; or if you simply work on LLM memory, multi-agent systems, self-improving agents, or domain-specific models, I&apos;d be glad to hear from you. A CV and a longer research statement are available on request.
               </p>
               <div className="space-y-2 mb-6">
                 <p><strong>Email:</strong> innovation64feng@gmail.com</p>
                 <p><strong>Phone:</strong> +86 13269183099 / +852 54614337</p>
-                <p><strong>Current Institution:</strong> The Hong Kong Polytechnic University (PolyU), Hong Kong SAR</p>
+                <p><strong>Current Institution:</strong> The Hong Kong Polytechnic University (PolyU), Hong Kong SAR &mdash; joint doctoral programme with a research institute</p>
+                <p><strong>Open To:</strong> Research internships worldwide, remote-friendly (US time-zone overlap available)</p>
               </div>
               <div className="flex flex-wrap gap-4">
                 <a

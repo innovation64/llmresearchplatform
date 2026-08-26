@@ -20,7 +20,7 @@ export default function PhDJourney() {
               Looking for Research Internships in LLM Memory &amp; Agents
             </h1>
             <p className="text-xl md:text-2xl mb-4 opacity-90">
-              PhD student at The Hong Kong Polytechnic University, jointly trained with a research institute, working on brain-inspired memory, multi-agent systems, and recursive self-improvement &mdash; looking for an industry or lab internship where that work meets real systems. Remote roles worldwide, including US-based teams, are very welcome.
+              PhD student at The Hong Kong Polytechnic University, jointly trained with GDIIST (Guangdong Institute of Intelligence Science and Technology), working on brain-inspired memory, multi-agent systems, and recursive self-improvement &mdash; looking for an industry or lab internship where that work meets real systems. Remote roles worldwide, including US-based teams, are very welcome.
             </p>
             <div className="flex flex-wrap justify-center gap-3 mt-8">
               <a href="mailto:innovation64feng@gmail.com" className="btn bg-white text-blue-700 hover:bg-blue-50 font-semibold px-6 py-3">
@@ -41,7 +41,7 @@ export default function PhDJourney() {
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 mb-10 border border-blue-100">
               <h2 className="text-2xl font-semibold mb-4">Overview</h2>
               <p className="text-lg mb-6">
-                I am a PhD student at The Hong Kong Polytechnic University (PolyU), enrolled in a joint doctoral programme co-supervised with a research institute, working on large language models &mdash; brain-inspired memory architectures, multi-agent systems, and, increasingly, recursive self-improvement: how an agent can convert its own experience into lasting capability. <strong>I am currently looking for a research internship.</strong> With publications at EMNLP and KDD, and prior research at GIIST, HKMU, Tsinghua NLP Lab, and Zhipu AI, I work across the full LLM stack &mdash; from multi-node distributed training to agent-level system design &mdash; and I am comfortable owning a research problem end to end, from literature to running code to a paper.
+                I am a PhD student at The Hong Kong Polytechnic University (PolyU), enrolled in a joint doctoral programme co-supervised with GDIIST (Guangdong Institute of Intelligence Science and Technology), working on large language models &mdash; brain-inspired memory architectures, multi-agent systems, and, increasingly, recursive self-improvement: how an agent can convert its own experience into lasting capability. <strong>I am currently looking for a research internship.</strong> With publications at EMNLP and KDD, and prior research at GDIIST, HKMU, Tsinghua NLP Lab, and Zhipu AI, I work across the full LLM stack &mdash; from multi-node distributed training to agent-level system design &mdash; and I am comfortable owning a research problem end to end, from literature to running code to a paper.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex">
@@ -59,7 +59,7 @@ export default function PhDJourney() {
                   </div>
                   <div>
                     <h3 className="font-medium text-lg mb-1">Current Position</h3>
-                    <p className="text-gray-700">PhD Student, The Hong Kong Polytechnic University (PolyU), Hong Kong SAR &mdash; 2026&ndash;Present. Joint doctoral training with a research institute (co-supervised).</p>
+                    <p className="text-gray-700">PhD Student, The Hong Kong Polytechnic University (PolyU), Hong Kong SAR &mdash; 2026&ndash;Present. Joint doctoral training with GDIIST (Guangdong Institute of Intelligence Science and Technology).</p>
                   </div>
                 </div>
                 <div className="flex">
@@ -68,7 +68,7 @@ export default function PhDJourney() {
                   </div>
                   <div>
                     <h3 className="font-medium text-lg mb-1">Research Experience</h3>
-                    <p className="text-gray-700">PolyU (2026&ndash;Present), GIIST (2025&ndash;2026), HKMU (2023&ndash;2025), THU NLP (2023), Zhipu AI (2022&ndash;2023)</p>
+                    <p className="text-gray-700">PolyU (2026&ndash;Present), GDIIST (2025&ndash;2026), HKMU (2023&ndash;2025), THU NLP (2023), Zhipu AI (2022&ndash;2023)</p>
                   </div>
                 </div>
                 <div className="flex">
@@ -123,7 +123,7 @@ export default function PhDJourney() {
                   <FiTool size={20} />
                   <h3 className="font-medium text-lg text-gray-900">What I Bring</h3>
                 </div>
-                <p className="text-gray-700">EMNLP / KDD publications, benchmark and dataset construction from scratch, multi-node training on 20+ H100 GPUs, agent framework engineering, and full-stack delivery (Python, PyTorch, Docker, React). Also a reviewer for NLP Journal and IEEE IoT Journal.</p>
+                <p className="text-gray-700">Publications at ACL, EMNLP (&times;2) and KDD, with two AAAI papers under review and an ICLR submission in preparation; benchmark and dataset construction from scratch, multi-node training on 20+ H100 GPUs, agent framework engineering, and full-stack delivery (Python, PyTorch, Docker, React). Also a reviewer for NLP Journal and IEEE IoT Journal.</p>
               </div>
               <div className="p-5 border rounded-lg border-l-4 border-l-amber-600 bg-white">
                 <div className="flex items-center gap-2 mb-2 text-amber-600">
@@ -150,13 +150,13 @@ export default function PhDJourney() {
                   <span className="text-sm font-semibold text-blue-600">2026 &ndash; Present</span>
                   <span className="tag bg-green-100 text-green-800 text-xs">Current</span>
                 </div>
-                <h3 className="font-medium text-lg">PhD Student &mdash; The Hong Kong Polytechnic University (joint programme with a research institute)</h3>
+                <h3 className="font-medium text-lg">PhD Student &mdash; The Hong Kong Polytechnic University &times; GDIIST (joint doctoral programme)</h3>
                 <p className="text-gray-600 text-sm mt-1">Doctoral research on long-horizon memory for LLM agents, multi-agent coordination, and recursive self-improvement &mdash; agents that reflect on their own trajectories and revise their own strategies under verification</p>
               </div>
               <div className="relative pl-8 pb-8">
                 <div className="absolute left-0 top-1 w-3 h-3 bg-blue-500 rounded-full -translate-x-[7px]"></div>
                 <span className="text-sm font-semibold text-blue-600">Aug 2025 &ndash; 2026</span>
-                <h3 className="font-medium text-lg">Research Assistant &mdash; GIIST, Zhuhai</h3>
+                <h3 className="font-medium text-lg">Research Assistant &mdash; GDIIST, Zhuhai</h3>
                 <p className="text-gray-600 text-sm mt-1">Brain-inspired memory architectures, Pain LLM with 20+ H100 GPUs, pain mouse behavioral benchmarks, China Brain Project, FDCT grant proposals</p>
               </div>
               <div className="relative pl-8 pb-8">
@@ -220,6 +220,34 @@ export default function PhDJourney() {
             </div>
 
             <h2 className="text-2xl font-semibold mb-6">Publications</h2>
+            <p className="text-gray-600 mb-6">
+              Five accepted papers across ACL, EMNLP (&times;2), KDD, and a journal venue, with two AAAI submissions currently under review and an ICLR submission in preparation.
+            </p>
+            <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+              <div className="p-5 rounded-lg border border-green-200 bg-green-50">
+                <div className="text-xs font-semibold text-green-700 uppercase tracking-wide mb-3">Accepted / Published</div>
+                <ul className="space-y-1.5 text-sm text-gray-700">
+                  <li><strong>2&times;</strong> EMNLP (Main)</li>
+                  <li><strong>1&times;</strong> ACL (Findings)</li>
+                  <li><strong>1&times;</strong> KDD</li>
+                  <li><strong>1&times;</strong> Journal (JTCMS)</li>
+                </ul>
+              </div>
+              <div className="p-5 rounded-lg border border-amber-200 bg-amber-50">
+                <div className="text-xs font-semibold text-amber-700 uppercase tracking-wide mb-3">Under Review</div>
+                <ul className="space-y-1.5 text-sm text-gray-700">
+                  <li><strong>2&times;</strong> AAAI submissions</li>
+                  <li className="text-gray-500 text-xs pt-1">On LLM memory and agent self-evolution &mdash; titles withheld until decisions are out</li>
+                </ul>
+              </div>
+              <div className="p-5 rounded-lg border border-blue-200 bg-blue-50">
+                <div className="text-xs font-semibold text-blue-700 uppercase tracking-wide mb-3">In Preparation</div>
+                <ul className="space-y-1.5 text-sm text-gray-700">
+                  <li><strong>1&times;</strong> ICLR submission</li>
+                  <li className="text-gray-500 text-xs pt-1">Currently in preparation</li>
+                </ul>
+              </div>
+            </div>
             <div className="space-y-6 mb-10">
               <div className="p-5 border rounded-lg border-l-4 border-l-purple-600">
                 <div className="flex items-center gap-2 mb-2">
@@ -300,7 +328,7 @@ export default function PhDJourney() {
               <div className="space-y-2 mb-6">
                 <p><strong>Email:</strong> innovation64feng@gmail.com</p>
                 <p><strong>Phone:</strong> +86 13269183099 / +852 54614337</p>
-                <p><strong>Current Institution:</strong> The Hong Kong Polytechnic University (PolyU), Hong Kong SAR &mdash; joint doctoral programme with a research institute</p>
+                <p><strong>Current Institution:</strong> The Hong Kong Polytechnic University (PolyU), Hong Kong SAR &mdash; joint doctoral programme with GDIIST</p>
                 <p><strong>Open To:</strong> Research internships worldwide, remote-friendly (US time-zone overlap available)</p>
               </div>
               <div className="flex flex-wrap gap-4">

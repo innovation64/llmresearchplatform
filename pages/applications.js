@@ -33,7 +33,7 @@ export default function Applications() {
                 </div>
                 <h2 className="text-xl font-semibold mb-3">Pain Analysis &amp; Assessment</h2>
                 <p className="text-gray-600 mb-4">
-                  Domain-specific LLMs (Pain LLM) trained on 20+ H100 GPUs for automated pain analysis and assessment. Includes pain mouse behavioral benchmarks developed under the China Brain Project at GIIST.
+                  Domain-specific LLMs (Pain LLM) trained on 20+ H100 GPUs for automated pain analysis and assessment. Includes pain mouse behavioral benchmarks developed under the China Brain Project at GDIIST.
                 </p>
                 <h3 className="font-medium mb-2">Key Benefits:</h3>
                 <ul className="list-disc pl-5 space-y-1 text-gray-600">

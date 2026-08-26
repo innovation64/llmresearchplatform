@@ -126,7 +126,7 @@ export default function Research() {
                       </div>
                       <div>
                         <h3 className="font-medium text-lg mb-2">Key Collaborations</h3>
-                        <p>Tsinghua University NLP Lab, GIIST</p>
+                        <p>Tsinghua University NLP Lab, GDIIST</p>
                       </div>
                     </div>
                     <div className="flex flex-wrap gap-2">
@@ -224,7 +224,7 @@ export default function Research() {
                       <span className="tag bg-emerald-100 text-emerald-800">Current</span>
                     </div>
                     <p className="text-gray-700 mb-6">
-                      Building specialized large language models for pain analysis and assessment (Pain LLM) at GIIST. This research involves multi-node distributed training on 20+ NVIDIA H100 GPUs, developing pain mouse behavioral benchmarks, and contributing to the China Brain Project.
+                      Building specialized large language models for pain analysis and assessment (Pain LLM) at GDIIST. This research involves multi-node distributed training on 20+ NVIDIA H100 GPUs, developing pain mouse behavioral benchmarks, and contributing to the China Brain Project.
                     </p>
 
                     {/* Training Infrastructure */}
@@ -262,7 +262,7 @@ export default function Research() {
                       </div>
                       <div>
                         <h3 className="font-medium text-lg mb-2">Institution</h3>
-                        <p>Guangdong Institute of Intelligence Science and Technology (GIIST)</p>
+                        <p>Guangdong Institute of Intelligence Science and Technology (GDIIST)</p>
                       </div>
                     </div>
                     <div className="flex flex-wrap gap-2">

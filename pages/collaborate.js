@@ -22,7 +22,7 @@ export default function Collaborate() {
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-gray-700 mb-12">
-              I&apos;m actively seeking collaborations to advance research in large language models and explore new applications. Whether you&apos;re from academia, industry, or an open-source project, I welcome the opportunity to discuss potential joint efforts in brain-inspired memory architectures, multi-agent systems, recursive self-improvement, RAG frameworks, reasoning capabilities, and domain-specific LLMs. Currently a PhD student at The Hong Kong Polytechnic University (PolyU), in a joint programme with a research institute, and open to remote collaboration and internships worldwide.
+              I&apos;m actively seeking collaborations to advance research in large language models and explore new applications. Whether you&apos;re from academia, industry, or an open-source project, I welcome the opportunity to discuss potential joint efforts in brain-inspired memory architectures, multi-agent systems, recursive self-improvement, RAG frameworks, reasoning capabilities, and domain-specific LLMs. Currently a PhD student at The Hong Kong Polytechnic University (PolyU), in a joint doctoral programme with GDIIST, and open to remote collaboration and internships worldwide.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -51,7 +51,7 @@ export default function Collaborate() {
                 </div>
                 <h2 className="text-xl font-semibold mb-3">Industry Applications</h2>
                 <p className="text-gray-600 mb-4">
-                  Seeking industry partners interested in applying my research to practical challenges. Experience at Zhipu AI and GIIST, ongoing doctoral research at PolyU, and involvement with technology startups provide a bridge between research and practical implementation.
+                  Seeking industry partners interested in applying my research to practical challenges. Experience at Zhipu AI and GDIIST, ongoing doctoral research at PolyU, and involvement with technology startups provide a bridge between research and practical implementation.
                 </p>
                 <h3 className="font-medium mb-2">Application Areas:</h3>
                 <ul className="list-disc pl-5 space-y-1 text-gray-600 mb-4">

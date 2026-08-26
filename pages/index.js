@@ -15,7 +15,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-1.5 bg-white/15 backdrop-blur-sm rounded-full text-sm font-medium mb-6 border border-white/20">
-              PhD Student @ PolyU, Hong Kong | EMNLP 2025 | KDD 2023
+              PhD Student @ PolyU, Hong Kong | EMNLP &times;2 | ACL Findings | KDD
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Advancing LLM Research<br />
@@ -62,20 +62,20 @@ export default function Home() {
         <div className="container mx-auto px-4 py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div>
-              <div className="text-3xl font-bold text-primary">4</div>
+              <div className="text-3xl font-bold text-primary">5</div>
               <div className="text-gray-500 text-sm mt-1">Publications</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-primary">3</div>
+              <div className="text-gray-500 text-sm mt-1">Under Review / In Prep</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-primary">4+</div>
               <div className="text-gray-500 text-sm mt-1">Years Research</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-primary">5</div>
-              <div className="text-gray-500 text-sm mt-1">Research Institutions</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-primary">2</div>
-              <div className="text-gray-500 text-sm mt-1">Top Venues (EMNLP, KDD)</div>
+              <div className="text-3xl font-bold text-primary">4</div>
+              <div className="text-gray-500 text-sm mt-1">Top Venues (ACL, EMNLP&times;2, KDD)</div>
             </div>
           </div>
         </div>
@@ -325,9 +325,35 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="mb-4">Selected Publications</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Peer-reviewed publications at top-tier venues in NLP and AI.
+              Peer-reviewed publications at ACL, EMNLP, and KDD, with further work under review at AAAI and in preparation for ICLR.
             </p>
           </div>
+
+            <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+              <div className="p-5 rounded-lg border border-green-200 bg-green-50">
+                <div className="text-xs font-semibold text-green-700 uppercase tracking-wide mb-3">Accepted / Published</div>
+                <ul className="space-y-1.5 text-sm text-gray-700">
+                  <li><strong>2&times;</strong> EMNLP (Main)</li>
+                  <li><strong>1&times;</strong> ACL (Findings)</li>
+                  <li><strong>1&times;</strong> KDD</li>
+                  <li><strong>1&times;</strong> Journal (JTCMS)</li>
+                </ul>
+              </div>
+              <div className="p-5 rounded-lg border border-amber-200 bg-amber-50">
+                <div className="text-xs font-semibold text-amber-700 uppercase tracking-wide mb-3">Under Review</div>
+                <ul className="space-y-1.5 text-sm text-gray-700">
+                  <li><strong>2&times;</strong> AAAI submissions</li>
+                  <li className="text-gray-500 text-xs pt-1">On LLM memory and agent self-evolution &mdash; titles withheld until decisions are out</li>
+                </ul>
+              </div>
+              <div className="p-5 rounded-lg border border-blue-200 bg-blue-50">
+                <div className="text-xs font-semibold text-blue-700 uppercase tracking-wide mb-3">In Preparation</div>
+                <ul className="space-y-1.5 text-sm text-gray-700">
+                  <li><strong>1&times;</strong> ICLR submission</li>
+                  <li className="text-gray-500 text-xs pt-1">Currently in preparation</li>
+                </ul>
+              </div>
+            </div>
 
           <div className="max-w-4xl mx-auto space-y-6">
             <div className="p-6 border-l-4 border-l-purple-600 bg-gray-50 rounded-r-lg">

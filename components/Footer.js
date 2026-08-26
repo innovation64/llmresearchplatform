@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Li Yang Research</h3>
             <p className="text-gray-300 mb-4">
-              PhD student at The Hong Kong Polytechnic University (joint programme with a research institute), seeking research internships &mdash; on-site or remote worldwide. Exploring brain-inspired memory, multi-agent systems, retrieval-augmented generation (RAG), reasoning, and recursive self-improvement in large language models.
+              PhD student at The Hong Kong Polytechnic University, jointly trained with GDIIST, seeking research internships &mdash; on-site or remote worldwide. Exploring brain-inspired memory, multi-agent systems, retrieval-augmented generation (RAG), reasoning, and recursive self-improvement in large language models.
             </p>
             <div className="flex space-x-4">
               <a

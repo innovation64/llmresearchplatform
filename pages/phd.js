@@ -249,13 +249,22 @@ export default function PhDJourney() {
               </div>
             </div>
             <div className="space-y-6 mb-10">
+              <div className="p-5 border rounded-lg border-l-4 border-l-sky-600">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="tag bg-sky-100 text-sky-800">EMNLP 2026</span>
+                  <span className="text-xs text-gray-500">Main Conference</span>
+                </div>
+                <h3 className="font-medium text-lg">AURA</h3>
+                <p className="text-gray-600 mb-2"><strong>Y. Li</strong>, et al.</p>
+              </div>
+
               <div className="p-5 border rounded-lg border-l-4 border-l-purple-600">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="tag bg-purple-100 text-purple-800">ACL 2026</span>
-                  <span className="text-xs text-gray-500">Under Review</span>
+                  <span className="tag bg-purple-100 text-purple-800">ACL 2026 Findings</span>
+                  <span className="text-xs text-gray-500">Accepted</span>
                 </div>
                 <h3 className="font-medium text-lg">BMAM: Brain-inspired Multi-Agent Memory Framework</h3>
-                <p className="text-gray-600 mb-2"><strong>Y. Li</strong>, J. Liu, Y. Wang, Y. Wu, and M. Xu. arXiv:2601.20465</p>
+                <p className="text-gray-600 mb-2"><strong>Y. Li</strong>, J. Liu, Y. Wang, Y. Wu, and M. Xu. Findings of ACL 2026. arXiv:2601.20465</p>
                 <div className="flex gap-4">
                   <a href="https://arxiv.org/abs/2601.20465" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">arXiv</a>
                 </div>

@@ -286,7 +286,7 @@ export default function Shenshu() {
           <div className="text-center mb-12">
             <h2 className="mb-4">BMAM: The Core of Shenshu</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              The published framework (arXiv:2601.20465) that implements the first layer of the Shenshu vision
+              The published framework (Findings of ACL 2026, arXiv:2601.20465) that implements the first layer of the Shenshu vision
             </p>
           </div>
 

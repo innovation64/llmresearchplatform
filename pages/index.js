@@ -356,14 +356,25 @@ export default function Home() {
             </div>
 
           <div className="max-w-4xl mx-auto space-y-6">
+            <div className="p-6 border-l-4 border-l-sky-600 bg-gray-50 rounded-r-lg">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="tag bg-sky-100 text-sky-800">EMNLP 2026</span>
+                <span className="text-xs text-gray-500">Main Conference</span>
+              </div>
+              <h3 className="text-lg font-semibold mb-2">AURA</h3>
+              <p className="text-gray-600 text-sm">
+                <strong>Y. Li</strong>, et al.
+              </p>
+            </div>
+
             <div className="p-6 border-l-4 border-l-purple-600 bg-gray-50 rounded-r-lg">
               <div className="flex items-center gap-2 mb-2">
-                <span className="tag bg-purple-100 text-purple-800">arXiv 2025</span>
-                <span className="text-xs text-gray-500">Published Preprint</span>
+                <span className="tag bg-purple-100 text-purple-800">ACL 2026 Findings</span>
+                <span className="text-xs text-gray-500">Accepted</span>
               </div>
               <h3 className="text-lg font-semibold mb-2">BMAM: Brain-inspired Multi-Agent Memory Framework</h3>
               <p className="text-gray-600 text-sm">
-                <strong>Y. Li</strong>, J. Liu, Y. Wang, Y. Wu, and M. Xu. arXiv:2601.20465
+                <strong>Y. Li</strong>, J. Liu, Y. Wang, Y. Wu, and M. Xu. Findings of ACL 2026. arXiv:2601.20465
               </p>
             </div>
 

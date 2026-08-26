@@ -83,14 +83,14 @@ export default function Research() {
                       <div>
                         <h3 className="font-medium text-lg mb-2">Key Contributions</h3>
                         <ul className="list-disc pl-5 space-y-2">
-                          <li><strong>BMAM Framework</strong> &mdash; Multi-agent memory system with brain region agents (published, arXiv:2601.20465)</li>
+                          <li><strong>BMAM Framework</strong> &mdash; Multi-agent memory system with brain region agents (Findings of ACL 2026, arXiv:2601.20465)</li>
                           <li>Memory consolidation and distortion modeling</li>
                           <li>Personality-driven reasoning validation</li>
                         </ul>
                       </div>
                       <div>
                         <h3 className="font-medium text-lg mb-2">Publication</h3>
-                        <p className="text-gray-600">Y. Li, J. Liu, Y. Wang, Y. Wu, and M. Xu. &ldquo;BMAM: Brain-inspired Multi-Agent Memory Framework.&rdquo; arXiv preprint arXiv:2601.20465.</p>
+                        <p className="text-gray-600">Y. Li, J. Liu, Y. Wang, Y. Wu, and M. Xu. &ldquo;BMAM: Brain-inspired Multi-Agent Memory Framework.&rdquo; <strong>Findings of ACL 2026</strong>. arXiv:2601.20465</p>
                       </div>
                     </div>
                     <div className="flex flex-wrap gap-2">

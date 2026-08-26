@@ -254,8 +254,12 @@ export default function PhDJourney() {
                   <span className="tag bg-sky-100 text-sky-800">EMNLP 2026</span>
                   <span className="text-xs text-gray-500">Main Conference</span>
                 </div>
-                <h3 className="font-medium text-lg">AURA</h3>
-                <p className="text-gray-600 mb-2"><strong>Y. Li</strong>, et al.</p>
+                <h3 className="font-medium text-lg">AURA: Intent-Directed Probing for Implicit-Need Surfacing in Situated LLM Agents</h3>
+                <p className="text-gray-600 mb-2"><strong>Y. Li</strong>, J. Liu, J. Cai, and M. Xu. arXiv:2606.05557</p>
+                <p className="text-gray-600 text-sm mb-2">Adds an inference layer between scene perception and tool execution: an IntentFrame assesses the unstated needs behind a situated query, and a gap score decides how much probing each query deserves &mdash; broader implicit-need coverage than ReAct-style probing, with 82% fewer probes on factual lookups.</p>
+                <div className="flex gap-4">
+                  <a href="https://arxiv.org/abs/2606.05557" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">arXiv</a>
+                </div>
               </div>
 
               <div className="p-5 border rounded-lg border-l-4 border-l-purple-600">

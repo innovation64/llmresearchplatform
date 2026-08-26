@@ -361,9 +361,9 @@ export default function Home() {
                 <span className="tag bg-sky-100 text-sky-800">EMNLP 2026</span>
                 <span className="text-xs text-gray-500">Main Conference</span>
               </div>
-              <h3 className="text-lg font-semibold mb-2">AURA</h3>
+              <h3 className="text-lg font-semibold mb-2">AURA: Intent-Directed Probing for Implicit-Need Surfacing in Situated LLM Agents</h3>
               <p className="text-gray-600 text-sm">
-                <strong>Y. Li</strong>, et al.
+                <strong>Y. Li</strong>, J. Liu, J. Cai, and M. Xu. arXiv:2606.05557
               </p>
             </div>
 

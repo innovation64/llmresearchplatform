@@ -43,7 +43,7 @@ const Navbar = () => {
               </Link>
             ))}
             <Link href="/phd" className="btn btn-primary">
-              PhD Position
+              Seeking Internship
             </Link>
           </div>
           
@@ -86,7 +86,7 @@ const Navbar = () => {
             className="block px-3 py-2 rounded-md text-base font-medium text-white bg-primary"
             onClick={() => setIsOpen(false)}
           >
-            PhD Position
+            Seeking Internship
           </Link>
         </div>
       </div>

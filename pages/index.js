@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FiUsers, FiDatabase, FiCpu, FiBriefcase, FiActivity, FiLayers } from 'react-icons/fi';
+import { FiUsers, FiDatabase, FiCpu, FiBriefcase, FiActivity, FiLayers, FiRefreshCw } from 'react-icons/fi';
 
 export default function Home() {
   return (
@@ -15,14 +15,14 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-1.5 bg-white/15 backdrop-blur-sm rounded-full text-sm font-medium mb-6 border border-white/20">
-              Research Assistant @ GIIST | EMNLP 2025 | KDD 2023
+              PhD Student @ PolyU, Hong Kong | EMNLP 2025 | KDD 2023
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Advancing LLM Research<br />
               <span className="text-blue-200">for Real-World Impact</span>
             </h1>
             <p className="text-xl md:text-2xl mb-10 opacity-90 leading-relaxed">
-              Exploring brain-inspired memory, multi-agent systems, retrieval-augmented generation, and reasoning capabilities in large language models
+              Exploring brain-inspired memory, multi-agent systems, retrieval-augmented generation, reasoning, and recursive self-improvement in large language models
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/research" className="btn bg-white text-blue-700 hover:bg-blue-50 font-semibold px-6 py-3">
@@ -49,7 +49,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-center">
             <span className="inline-block w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
-            <span className="text-blue-800 font-medium">Actively seeking PhD positions in LLM research!</span>
+            <span className="text-blue-800 font-medium">PhD student @ PolyU &mdash; actively seeking research internships (LLM memory, agents, self-evolution)</span>
             <Link href="/phd" className="ml-4 text-blue-600 font-medium hover:underline">
               Learn more &rarr;
             </Link>
@@ -66,7 +66,7 @@ export default function Home() {
               <div className="text-gray-500 text-sm mt-1">Publications</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-primary">3+</div>
+              <div className="text-3xl font-bold text-primary">4+</div>
               <div className="text-gray-500 text-sm mt-1">Years Research</div>
             </div>
             <div>
@@ -87,11 +87,29 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="mb-4">Research Focus</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              My research explores the frontiers of large language models with a focus on brain-inspired memory, multi-agent collaboration, knowledge retrieval, and reasoning capabilities.
+              My research explores the frontiers of large language models with a focus on brain-inspired memory, multi-agent collaboration, knowledge retrieval, reasoning, and systems that improve themselves over time.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="card border-t-4 border-t-rose-600">
+              <img src="/llmresearchplatform/images/network-abstract.jpg" alt="Recursive Self-Improvement Research" className="w-full h-40 object-cover" />
+              <div className="p-6">
+              <div className="text-rose-600 mb-4">
+                <FiRefreshCw size={32} />
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Recursive Self-Improvement</h3>
+              <p className="text-gray-600 mb-4">
+                A long-horizon direction: agents that turn their own experience into lasting capability &mdash; reflecting on past trajectories, revising their own strategies and tools, and compounding those revisions under verification. Early-stage and deliberately open-ended.
+              </p>
+              <div className="flex flex-wrap gap-2 mt-2">
+                <span className="tag bg-rose-100 text-rose-800">RSI</span>
+                <span className="tag">Self-Evolution</span>
+                <span className="tag">Exploratory</span>
+              </div>
+              </div>
+            </div>
+
             <div className="card border-t-4 border-t-purple-600">
               <img src="/llmresearchplatform/images/brain-neural.jpg" alt="Brain-Inspired Memory Research" className="w-full h-40 object-cover" />
               <div className="p-6">
@@ -412,14 +430,14 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="mb-4">Interested in Collaboration?</h2>
             <p className="text-xl mb-8 opacity-90">
-              I&apos;m actively seeking collaborations with researchers, academic institutions, and industry partners to advance LLM research and brain-inspired AI systems.
+              As a PhD student at PolyU, I&apos;m looking for research internships and open to collaborations with labs, academic institutions, and industry partners on LLM memory, brain-inspired AI, and self-evolving agent systems.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/collaborate" className="btn bg-white text-blue-600 hover:bg-blue-50 font-semibold px-6 py-3">
                 Explore Collaboration Opportunities
               </Link>
               <Link href="/phd" className="btn border-2 border-white hover:bg-white/10 px-6 py-3">
-                PhD Opportunities
+                Internship &amp; Research Profile
               </Link>
             </div>
           </div>

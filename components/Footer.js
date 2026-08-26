@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Li Yang Research</h3>
             <p className="text-gray-300 mb-4">
-              Exploring brain-inspired memory, multi-agent systems, retrieval-augmented generation (RAG), and reasoning capabilities in large language models.
+              PhD student at The Hong Kong Polytechnic University, seeking research internships. Exploring brain-inspired memory, multi-agent systems, retrieval-augmented generation (RAG), reasoning, and recursive self-improvement in large language models.
             </p>
             <div className="flex space-x-4">
               <a
@@ -70,7 +70,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/phd" className="text-gray-300 hover:text-white">
-                  PhD Opportunities
+                  Internship &amp; Profile
                 </Link>
               </li>
             </ul>
@@ -85,7 +85,7 @@ const Footer = () => {
               Phone: +86 13269183099 / +852 54614337
             </p>
             <p className="text-gray-300 mb-4">
-              Guangdong Institute of Intelligence Science and Technology (GIIST)
+              The Hong Kong Polytechnic University (PolyU), Hong Kong SAR
             </p>
             <div className="space-y-2">
               <a

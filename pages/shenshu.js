@@ -514,7 +514,7 @@ export default function Shenshu() {
                 View Research
               </Link>
               <Link href="/phd" className="btn border-2 border-white/50 hover:bg-white/10 px-6 py-3">
-                PhD Opportunities
+                Internship &amp; Profile
               </Link>
             </div>
           </div>

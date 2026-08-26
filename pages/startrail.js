@@ -469,6 +469,17 @@ export default function StarTrail() {
               </p>
               <div className="text-green-400/60 text-xs font-mono">Toward emergent agent societies</div>
             </div>
+            <div className="bg-[#111140]/60 rounded-xl p-6 border border-rose-500/10 md:col-span-2">
+              <div className="flex items-center gap-2 mb-3">
+                <FiStar className="text-rose-400" size={18} />
+                <h3 className="text-rose-200 font-medium">Self-Evolution (PhD, PolyU)</h3>
+                <span className="px-2 py-0.5 bg-rose-500/10 rounded text-rose-300/80 text-xs font-mono">active</span>
+              </div>
+              <p className="text-gray-400 text-sm mb-2">
+                Approaches <strong className="text-rose-300">Choice Point 04</strong> (Self-Improvement) from the memory side: if durable experience is what lets an agent get better at all, then the shape of its memory decides whether recursive improvement <em>compounds</em> or <em>drifts</em>. Ongoing doctoral work &mdash; route described here at the level of direction only.
+              </p>
+              <div className="text-green-400/60 text-xs font-mono">Bounded, verifiable self-improvement &mdash; not the &beta; path</div>
+            </div>
           </div>
         </div>
       </section>
@@ -539,7 +550,7 @@ export default function StarTrail() {
                 View Research
               </Link>
               <Link href="/phd" className="btn border-2 border-white/20 text-gray-300 hover:bg-white/5 px-6 py-3">
-                PhD Opportunities
+                Internship &amp; Profile
               </Link>
             </div>
             <div className="mt-10 font-mono text-green-500/30 text-xs">

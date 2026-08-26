@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FiUsers, FiDatabase, FiCpu, FiBriefcase, FiActivity, FiLayers } from 'react-icons/fi';
+import { FiUsers, FiDatabase, FiCpu, FiBriefcase, FiActivity, FiLayers, FiRefreshCw } from 'react-icons/fi';
 
 export default function Research() {
   return (
@@ -16,7 +16,7 @@ export default function Research() {
               Research Areas
             </h1>
             <p className="text-xl md:text-2xl mb-4 opacity-90">
-              Exploring the frontiers of large language models and brain-inspired AI
+              Exploring the frontiers of large language models, brain-inspired AI, and self-evolving agents
             </p>
           </div>
         </div>
@@ -26,7 +26,7 @@ export default function Research() {
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-gray-700 mb-12">
-              My research focuses on advancing large language model capabilities through six interconnected areas: brain-inspired memory architectures, multi-agent systems, retrieval-augmented generation, reasoning mechanisms, domain-specific LLMs, and code generation. The goal is to develop more capable, contextually aware AI systems that can effectively collaborate, retain long-term memory, and reason through complex problems.
+              My research focuses on advancing large language model capabilities through seven interconnected areas: brain-inspired memory architectures, multi-agent systems, retrieval-augmented generation, reasoning mechanisms, domain-specific LLMs, code generation, and &mdash; as the current doctoral direction at PolyU &mdash; recursive self-improvement. The goal is to develop AI systems that collaborate effectively, retain long-term memory, reason through complex problems, and ultimately turn their own experience into lasting capability.
             </p>
 
             <div className="space-y-16">
@@ -309,6 +309,75 @@ export default function Research() {
                       <span className="tag">GLM</span>
                       <span className="tag">Zhipu AI</span>
                       <span className="tag">Prompt Engineering</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Recursive Self-Improvement */}
+              <div className="bg-gradient-to-r from-rose-50 to-orange-50 rounded-lg p-8 border-l-4 border-rose-600">
+                <div className="flex items-start">
+                  <div className="text-rose-600 mr-4 flex-shrink-0">
+                    <FiRefreshCw size={32} />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-3 mb-4">
+                      <h2 className="text-2xl font-semibold">Recursive Self-Improvement &amp; Self-Evolution</h2>
+                      <span className="tag bg-rose-100 text-rose-800">PhD Direction</span>
+                    </div>
+                    <p className="text-gray-700 mb-6">
+                      Today&apos;s agents are frozen between runs: whatever they learn while solving a task is discarded when the context ends. My doctoral direction at PolyU asks what changes when that loop is closed &mdash; when an agent&apos;s own experience feeds back into the strategies, prompts, and tools it uses next time, and those revisions accumulate. This is where the memory work and the agent work meet: <strong>memory is the substrate that makes self-improvement possible</strong>, and the structure of that memory largely decides whether improvement compounds or drifts.
+                    </p>
+
+                    <div className="bg-white rounded-lg p-6 mb-6 border">
+                      <h3 className="font-medium text-lg mb-4 text-center text-gray-800">The Self-Evolution Loop (Sketch)</h3>
+                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div className="bg-rose-50 rounded-lg p-4 text-center border border-rose-200">
+                          <div className="text-rose-700 font-semibold mb-1">Accumulate</div>
+                          <div className="text-xs text-gray-500">Durable experience</div>
+                        </div>
+                        <div className="bg-orange-50 rounded-lg p-4 text-center border border-orange-200">
+                          <div className="text-orange-700 font-semibold mb-1">Reflect</div>
+                          <div className="text-xs text-gray-500">Judge own trajectories</div>
+                        </div>
+                        <div className="bg-amber-50 rounded-lg p-4 text-center border border-amber-200">
+                          <div className="text-amber-700 font-semibold mb-1">Revise</div>
+                          <div className="text-xs text-gray-500">Rewrite strategy &amp; tools</div>
+                        </div>
+                        <div className="bg-emerald-50 rounded-lg p-4 text-center border border-emerald-200">
+                          <div className="text-emerald-700 font-semibold mb-1">Verify</div>
+                          <div className="text-xs text-gray-500">Bounded, auditable change</div>
+                        </div>
+                      </div>
+                      <p className="text-xs text-gray-500 text-center mt-4">A directional sketch, not an architecture. Concrete designs and results are kept for the papers.</p>
+                    </div>
+
+                    <div className="space-y-4 mb-6">
+                      <div>
+                        <h3 className="font-medium text-lg mb-2">Open Questions I&apos;m Pursuing</h3>
+                        <ul className="list-disc pl-5 space-y-2">
+                          <li><strong>Convergence vs. drift</strong> &mdash; what property of the loop makes repeated self-revision improve rather than degrade a system?</li>
+                          <li><strong>Measuring a moving target</strong> &mdash; how do you evaluate improvement when the evaluator, the memory, and the policy all change together?</li>
+                          <li><strong>Credit over long horizons</strong> &mdash; which past experience deserves to be kept, and which should be allowed to fade?</li>
+                          <li><strong>Bounded self-modification</strong> &mdash; what verification envelope keeps self-directed change reversible, interpretable, and safe?</li>
+                          <li><strong>Open-ended evaluation</strong> &mdash; benchmarks that do not saturate as the agent gets better at them.</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h3 className="font-medium text-lg mb-2">Relation to Other Work</h3>
+                        <p className="text-gray-600">Continues directly from the brain-inspired memory line (BMAM) and the multi-agent line above, and sits on <Link href="/startrail" className="text-primary hover:underline">Choice Point 04</Link> of the Star Trail route &mdash; the fork between unconstrained and supervised recursive growth.</p>
+                      </div>
+                      <div>
+                        <h3 className="font-medium text-lg mb-2">Status</h3>
+                        <p className="text-gray-600">Early-stage doctoral research. Described here at the level of direction; specific methods, systems, and preliminary results are intentionally not detailed until publication.</p>
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="tag bg-rose-100 text-rose-800">RSI</span>
+                      <span className="tag">Self-Evolving Agents</span>
+                      <span className="tag">Experience Accumulation</span>
+                      <span className="tag">Meta-Cognition</span>
+                      <span className="tag">Bounded Self-Modification</span>
                     </div>
                   </div>
                 </div>

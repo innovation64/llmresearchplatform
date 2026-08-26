@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { FiAward, FiBookOpen, FiTarget, FiUsers, FiMapPin, FiStar } from 'react-icons/fi';
+import { FiAward, FiBookOpen, FiTarget, FiUsers, FiMapPin, FiStar, FiBriefcase, FiClock, FiGlobe, FiTool } from 'react-icons/fi';
 
-export default function PhDPosition() {
+export default function PhDJourney() {
   return (
     <div>
       {/* Hero Section */}
@@ -12,15 +12,24 @@ export default function PhDPosition() {
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-block px-4 py-1.5 bg-white/15 backdrop-blur-sm rounded-full text-sm font-medium mb-6 border border-white/20">
-              Actively Seeking PhD Positions
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/15 backdrop-blur-sm rounded-full text-sm font-medium mb-6 border border-white/20">
+              <span className="inline-block w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+              PhD Student @ PolyU &middot; Seeking Research Internships
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              PhD Position in LLM Research
+              Looking for Research Internships in LLM Memory &amp; Agents
             </h1>
             <p className="text-xl md:text-2xl mb-4 opacity-90">
-              Looking for opportunities to advance research in brain-inspired memory, multi-agent systems, and domain-specific LLMs
+              PhD student at The Hong Kong Polytechnic University working on brain-inspired memory, multi-agent systems, and recursive self-improvement &mdash; looking for an industry or lab internship where that work meets real systems
             </p>
+            <div className="flex flex-wrap justify-center gap-3 mt-8">
+              <a href="mailto:innovation64feng@gmail.com" className="btn bg-white text-blue-700 hover:bg-blue-50 font-semibold px-6 py-3">
+                Email Me About an Internship
+              </a>
+              <a href="https://scholar.google.com/citations?user=J5CWbnMAAAAJ" target="_blank" rel="noopener noreferrer" className="btn bg-transparent border-2 border-white/60 hover:bg-white/10 px-6 py-3">
+                Google Scholar
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -32,7 +41,7 @@ export default function PhDPosition() {
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 mb-10 border border-blue-100">
               <h2 className="text-2xl font-semibold mb-4">Overview</h2>
               <p className="text-lg mb-6">
-                I am actively seeking PhD positions to continue my research in large language models, brain-inspired memory architectures, multi-agent systems, and domain-specific LLMs. With publications at EMNLP and KDD, experience at GIIST, HKMU, Tsinghua NLP Lab, and Zhipu AI, I bring a strong research track record and hands-on experience across the full LLM stack.
+                I am a PhD student at The Hong Kong Polytechnic University (PolyU), working on large language models &mdash; brain-inspired memory architectures, multi-agent systems, and, increasingly, recursive self-improvement: how an agent can convert its own experience into lasting capability. <strong>I am currently looking for a research internship.</strong> With publications at EMNLP and KDD, and prior research at GIIST, HKMU, Tsinghua NLP Lab, and Zhipu AI, I work across the full LLM stack &mdash; from multi-node distributed training to agent-level system design &mdash; and I am comfortable owning a research problem end to end, from literature to running code to a paper.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex">
@@ -50,7 +59,7 @@ export default function PhDPosition() {
                   </div>
                   <div>
                     <h3 className="font-medium text-lg mb-1">Current Position</h3>
-                    <p className="text-gray-700">Research Assistant, Guangdong Institute of Intelligence Science and Technology (GIIST), Aug 2025&ndash;Present</p>
+                    <p className="text-gray-700">PhD Student, The Hong Kong Polytechnic University (PolyU), Hong Kong SAR &mdash; 2026&ndash;Present</p>
                   </div>
                 </div>
                 <div className="flex">
@@ -59,7 +68,7 @@ export default function PhDPosition() {
                   </div>
                   <div>
                     <h3 className="font-medium text-lg mb-1">Research Experience</h3>
-                    <p className="text-gray-700">GIIST (2025&ndash;Present), HKMU (2023&ndash;2025), THU NLP (2023), Zhipu AI (2022&ndash;2023)</p>
+                    <p className="text-gray-700">PolyU (2026&ndash;Present), GIIST (2025&ndash;2026), HKMU (2023&ndash;2025), THU NLP (2023), Zhipu AI (2022&ndash;2023)</p>
                   </div>
                 </div>
                 <div className="flex">
@@ -68,7 +77,7 @@ export default function PhDPosition() {
                   </div>
                   <div>
                     <h3 className="font-medium text-lg mb-1">Research Focus</h3>
-                    <p className="text-gray-700">Brain-inspired memory, multi-agent systems, RAG, reasoning, domain-specific LLMs</p>
+                    <p className="text-gray-700">Brain-inspired memory, multi-agent systems, recursive self-improvement, RAG, reasoning, domain-specific LLMs</p>
                   </div>
                 </div>
                 <div className="flex">
@@ -92,15 +101,54 @@ export default function PhDPosition() {
               </div>
             </div>
 
+            {/* Internship: what I'm looking for */}
+            <h2 className="text-2xl font-semibold mb-6">What I&apos;m Looking For</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+              <div className="p-5 border rounded-lg border-l-4 border-l-blue-600 bg-white">
+                <div className="flex items-center gap-2 mb-2 text-primary">
+                  <FiBriefcase size={20} />
+                  <h3 className="font-medium text-lg text-gray-900">Type of Internship</h3>
+                </div>
+                <p className="text-gray-700">Research internship at an industry lab, research institute, or a startup research team &mdash; ideally one where the work can lead to a paper, an open-source release, or a shipped system. Research-engineer roles that sit between the two are equally welcome.</p>
+              </div>
+              <div className="p-5 border rounded-lg border-l-4 border-l-rose-600 bg-white">
+                <div className="flex items-center gap-2 mb-2 text-rose-600">
+                  <FiTarget size={20} />
+                  <h3 className="font-medium text-lg text-gray-900">Topics I&apos;d Love to Work On</h3>
+                </div>
+                <p className="text-gray-700">Long-horizon memory for LLM agents, agent frameworks and evaluation, recursive self-improvement / self-evolving systems, RAG and reasoning, post-training and data pipelines for agentic models.</p>
+              </div>
+              <div className="p-5 border rounded-lg border-l-4 border-l-emerald-600 bg-white">
+                <div className="flex items-center gap-2 mb-2 text-emerald-600">
+                  <FiTool size={20} />
+                  <h3 className="font-medium text-lg text-gray-900">What I Bring</h3>
+                </div>
+                <p className="text-gray-700">EMNLP / KDD publications, benchmark and dataset construction from scratch, multi-node training on 20+ H100 GPUs, agent framework engineering, and full-stack delivery (Python, PyTorch, Docker, React). Also a reviewer for NLP Journal and IEEE IoT Journal.</p>
+              </div>
+              <div className="p-5 border rounded-lg border-l-4 border-l-amber-600 bg-white">
+                <div className="flex items-center gap-2 mb-2 text-amber-600">
+                  <FiClock size={20} />
+                  <h3 className="font-medium text-lg text-gray-900">Timing &amp; Location</h3>
+                </div>
+                <p className="text-gray-700 flex items-start gap-2"><FiGlobe size={18} className="mt-1 flex-shrink-0 text-gray-400" /><span>Based in Hong Kong; open to Hong Kong, Mainland China, Singapore, and remote arrangements. Duration and start date are flexible &mdash; happy to discuss what fits both the team and my doctoral schedule.</span></p>
+              </div>
+            </div>
+
             {/* Research Timeline */}
             <h2 className="text-2xl font-semibold mb-6">Research Timeline</h2>
             <div className="space-y-0 mb-10 border-l-2 border-blue-200 ml-4">
               <div className="relative pl-8 pb-8">
                 <div className="absolute left-0 top-1 w-3 h-3 bg-blue-600 rounded-full -translate-x-[7px]"></div>
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="text-sm font-semibold text-blue-600">Aug 2025 &ndash; Present</span>
+                  <span className="text-sm font-semibold text-blue-600">2026 &ndash; Present</span>
                   <span className="tag bg-green-100 text-green-800 text-xs">Current</span>
                 </div>
+                <h3 className="font-medium text-lg">PhD Student &mdash; The Hong Kong Polytechnic University</h3>
+                <p className="text-gray-600 text-sm mt-1">Doctoral research on long-horizon memory for LLM agents, multi-agent coordination, and recursive self-improvement &mdash; agents that reflect on their own trajectories and revise their own strategies under verification</p>
+              </div>
+              <div className="relative pl-8 pb-8">
+                <div className="absolute left-0 top-1 w-3 h-3 bg-blue-500 rounded-full -translate-x-[7px]"></div>
+                <span className="text-sm font-semibold text-blue-600">Aug 2025 &ndash; 2026</span>
                 <h3 className="font-medium text-lg">Research Assistant &mdash; GIIST, Zhuhai</h3>
                 <p className="text-gray-600 text-sm mt-1">Brain-inspired memory architectures, Pain LLM with 20+ H100 GPUs, pain mouse behavioral benchmarks, China Brain Project, FDCT grant proposals</p>
               </div>
@@ -130,8 +178,18 @@ export default function PhDPosition() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-semibold mb-6">Research Interests for PhD</h2>
+            <h2 className="text-2xl font-semibold mb-6">PhD Research Agenda</h2>
+            <p className="text-gray-600 mb-6">
+              The through-line of my doctoral work is simple to state and hard to do: <strong>memory is the substrate of self-improvement</strong>. An agent that cannot durably remember what worked cannot reliably get better. The directions below run from what exists today toward what is still exploratory; the later ones are intentionally described at the level of direction rather than method.
+            </p>
             <div className="space-y-6 mb-10">
+              <div className="border-l-4 border-rose-600 pl-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <h3 className="font-medium text-lg">Recursive Self-Improvement &amp; Self-Evolving Agents</h3>
+                  <span className="tag bg-rose-100 text-rose-800 text-xs">Exploratory</span>
+                </div>
+                <p className="text-gray-700">Studying how an agent can close the loop between experience and capability: accumulating durable experience, evaluating its own trajectories, revising its own strategies, prompts, and tooling, and compounding those revisions over time. The open questions I care about are what makes such a loop <em>converge</em> rather than drift, how improvement is measured when the evaluator is also changing, and what verification envelope keeps self-modification bounded and auditable. Directional, early-stage work &mdash; specifics deliberately not detailed here.</p>
+              </div>
               <div className="border-l-4 border-purple-600 pl-4">
                 <h3 className="font-medium text-lg mb-2">Brain-Inspired Memory Architectures for LLMs</h3>
                 <p className="text-gray-700">Building on the BMAM framework to develop neuroscience-principled memory systems that enable agents with human-like consolidation, forgetting, and retrieval capabilities.</p>
@@ -227,15 +285,15 @@ export default function PhDPosition() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-semibold mb-6">Contact for PhD Opportunities</h2>
+            <h2 className="text-2xl font-semibold mb-6">Contact for Internships &amp; Collaboration</h2>
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border border-blue-100">
               <p className="mb-4">
-                If you are a professor or research lab looking for PhD students in the field of LLMs, brain-inspired AI, multi-agent systems, or domain-specific models, I would be happy to discuss potential research directions and opportunities.
+                If your team is hiring research interns &mdash; or if you simply work on LLM memory, multi-agent systems, self-improving agents, or domain-specific models &mdash; I&apos;d be glad to hear from you. A CV and a longer research statement are available on request.
               </p>
               <div className="space-y-2 mb-6">
                 <p><strong>Email:</strong> innovation64feng@gmail.com</p>
                 <p><strong>Phone:</strong> +86 13269183099 / +852 54614337</p>
-                <p><strong>Current Institution:</strong> Guangdong Institute of Intelligence Science and Technology (GIIST)</p>
+                <p><strong>Current Institution:</strong> The Hong Kong Polytechnic University (PolyU), Hong Kong SAR</p>
               </div>
               <div className="flex flex-wrap gap-4">
                 <a

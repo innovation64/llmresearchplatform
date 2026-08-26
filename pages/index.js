@@ -412,52 +412,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Recent Discussions Section */}
-      <section className="section bg-gray-50">
-        <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="mb-4">Recent Discussions</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Join the conversation about LLM research, applications, and future directions.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="message-card">
-              <div className="flex justify-between mb-2">
-                <span className="font-medium">Prof. Sarah Chen</span>
-                <span className="text-gray-500 text-sm">April 10, 2025</span>
-              </div>
-              <p className="text-gray-700 mb-2">
-                Your work on conditional ambiguous question answering is quite interesting. Have you considered applying this to medical information retrieval where ambiguity is common but potentially dangerous?
-              </p>
-              <div className="text-gray-500 text-sm">
-                University of California, Berkeley
-              </div>
-            </div>
-
-            <div className="message-card">
-              <div className="flex justify-between mb-2">
-                <span className="font-medium">Dr. Michael Zhang</span>
-                <span className="text-gray-500 text-sm">April 5, 2025</span>
-              </div>
-              <p className="text-gray-700 mb-2">
-                I&apos;m working on similar multi-agent evaluation frameworks at MIT. Would be great to compare notes on how you&apos;re measuring inter-agent communication efficiency.
-              </p>
-              <div className="text-gray-500 text-sm">
-                MIT CSAIL
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center mt-10">
-            <Link href="/discuss" className="btn btn-primary">
-              Join the Discussion
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Call to Action */}
       <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">

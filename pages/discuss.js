@@ -16,40 +16,17 @@ export default function Discuss() {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    // This would normally connect to GitHub Discussions API or a backend
-    alert('Your message has been submitted. In a real implementation, this would be saved to GitHub Discussions or a database.');
-    setFormData({
-      name: '',
-      email: '',
-      affiliation: '',
-      message: ''
-    });
+    // No backend here on purpose: hand the message straight to the user's mail client
+    const subject = `Research discussion from ${formData.name}`;
+    const body = [
+      `Name: ${formData.name}`,
+      formData.affiliation ? `Affiliation: ${formData.affiliation}` : null,
+      formData.email ? `Reply-to: ${formData.email}` : null,
+      '',
+      formData.message
+    ].filter(Boolean).join('\n');
+    window.location.href = `mailto:innovation64feng@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
-  
-  // Example discussions (in a real implementation, these would be fetched from GitHub Discussions)
-  const discussions = [
-    {
-      id: 1,
-      author: 'Prof. Sarah Chen',
-      date: 'April 10, 2025',
-      content: 'Your work on conditional ambiguous question answering is quite interesting. Have you considered applying this to medical information retrieval where ambiguity is common but potentially dangerous?',
-      affiliation: 'University of California, Berkeley'
-    },
-    {
-      id: 2,
-      author: 'Dr. Michael Zhang',
-      date: 'April 5, 2025',
-      content: "I'm working on similar multi-agent evaluation frameworks at MIT. Would be great to compare notes on how you're measuring inter-agent communication efficiency. Your XAgent evaluation metrics look promising.",
-      affiliation: 'MIT CSAIL'
-    },
-    {
-      id: 3,
-      author: 'Olivia Rodriguez',
-      date: 'March 28, 2025',
-      content: "We're implementing RAG systems for legal document analysis and would be interested in collaborating on how your work on context integration could help with maintaining document relationships. Let's connect!",
-      affiliation: 'LegalTech Institute'
-    }
-  ];
   
   return (
     <div>
@@ -137,28 +114,12 @@ export default function Discuss() {
                   className="btn btn-primary flex items-center"
                 >
                   <FiSend className="mr-2" />
-                  Submit Message
+                  Send via Email
                 </button>
+                <p className="text-gray-500 text-sm mt-3">
+                  This opens your own mail client with the message pre-filled &mdash; nothing is stored on this site.
+                </p>
               </form>
-            </div>
-            
-            <h2 className="text-2xl font-semibold mb-6">Recent Discussions</h2>
-            
-            <div className="space-y-6 mb-8">
-              {discussions.map(discussion => (
-                <div key={discussion.id} className="message-card">
-                  <div className="flex justify-between mb-2">
-                    <span className="font-medium">{discussion.author}</span>
-                    <span className="text-gray-500 text-sm">{discussion.date}</span>
-                  </div>
-                  <p className="text-gray-700 mb-2">
-                    {discussion.content}
-                  </p>
-                  <div className="text-gray-500 text-sm">
-                    {discussion.affiliation}
-                  </div>
-                </div>
-              ))}
             </div>
             
             <div className="bg-blue-50 rounded-lg p-6">
